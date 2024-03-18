@@ -1,0 +1,32 @@
+# builds
+node_modules
+dist
+out
+code_documentation
+*.env
+*.env.webpack
+//pm2*json
+__snapshots__
+coverage
+cert
+
+# logs
+*.log*
+npm-debug.log
+
+# temp
+tmp
+*.swp
+
+# editors
+.idea
+.project
+*.sublime-workspace
+.vscode
+.vs/
+
+# docker
+*override.yaml
+
+# pem (ssl key)
+*.pem
